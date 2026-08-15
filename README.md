@@ -1,29 +1,110 @@
-# Welcome to your Lovable project
+# SmartCampus — AI-Powered Student Placement & Skill Management Platform
 
-This project was built with [Lovable](https://lovable.dev).
+SmartCampus is a full-stack web application designed to help students systematically prepare for placements by tracking their skills, identifying skill gaps, managing preparation activities, and monitoring their overall placement readiness.
 
-## Build with Lovable
+## 🚀 Features
 
-Open your project in the [Lovable editor](https://lovable.dev) and keep building.
+* Student registration and secure login
+* Personalized student dashboard
+* Skill management and skill tracking
+* Target job/role selection
+* Job requirement and skill-gap analysis
+* Placement preparation roadmap
+* Aptitude and technical preparation tracking
+* Progress monitoring
+* Resume and profile management
+* Placement readiness score
+* Responsive and modern user interface
 
-- **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: connect the project to GitHub and every change made in Lovable is committed straight to your repository.
-- **Full ownership**: this code is yours. Push to your repository and your changes sync back into Lovable, ready for your next prompt.
+## 🛠️ Tech Stack
 
-## Development
+### Frontend
 
-Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
+* React
+* TypeScript
+* Tailwind CSS
+* TanStack Start
 
-```sh
-git clone <this-repository-url>
-cd <repository-name>
-npm i
+### Backend
+
+* Node.js
+* REST APIs
+
+### Database
+
+* MongoDB
+
+### Tools
+
+* Git
+* GitHub
+* VS Code
+* npm
+
+## 📂 Project Structure
+
+```text
+SmartCampus/
+├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── routes/
+│   ├── services/
+│   ├── hooks/
+│   └── types/
+├── public/
+├── package.json
+├── tsconfig.json
+├── tailwind.config.ts
+└── README.md
+```
+
+## ⚙️ Installation
+
+Clone the repository:
+
+```bash
+git clone <your-github-repository-url>
+cd SmartCampus
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
 npm run dev
 ```
 
-## Built with
+Open the local development URL shown in the terminal.
 
-- TanStack Start
-- TypeScript
-- React
-- Tailwind CSS
+## 🎯 Project Objective
+
+The main objective of SmartCampus is to provide students with a centralized platform for placement preparation. Instead of preparing without knowing their strengths and weaknesses, students can track their skills, compare them with target job requirements, identify missing skills, and follow a structured preparation plan.
+
+## 🔮 Future Enhancements
+
+* AI-powered resume analysis
+* AI interview preparation
+* AI-based job recommendations
+* Automated skill-gap analysis
+* Mock interview simulator
+* Coding assessment module
+* Company-specific preparation plans
+* Placement analytics and reports
+
+## 👩‍💻 Developer
+
+**Soundarya Nayagi M**
+
+B.Tech Information Technology
+Velammal College of Engineering and Technology, Madurai
+
+---
+
+⭐ If you find this project useful, consider giving the repository a star.
+
